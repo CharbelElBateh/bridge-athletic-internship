@@ -4,6 +4,12 @@ Technical assignment required by bridge athlectic
 ## ⚠ Attention:
 The first method will take a lot of time to compute large numbers.<br>
 The second will take a fraction of a second to compute large numbers.
+<br><br>
+To avoid stack overflow when running a number like 10000, kindly expand the limit of the stack so it will not overflow:
+```shell
+java -Xss10m Main
+```
+By running this line after compiling the file
 
 ## Features
 - Make sure the user enters a positive integer      
